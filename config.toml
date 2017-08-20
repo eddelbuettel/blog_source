@@ -1,0 +1,42 @@
+baseurl = "https://binxiangni.github.io/"
+languageCode = "en-us"
+title = "Binxiang Ni"
+theme = "hugo-lithium-theme"
+googleAnalytics = ""
+disqusShortname = "binxiangni"
+enableEmoji = true
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+
+[params]
+    description = "A personal website of Binxiang Ni."
+    author = "Binxiang Ni"
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+    
+    [params.social]
+    twitter = "br1anu"
+    github = "binxiangni"
+
+    [params.logo]
+    url = "logo.jpg"
+    width = 50
+    height = 50
+    alt = "Logo"
+

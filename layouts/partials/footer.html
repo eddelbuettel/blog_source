@@ -1,0 +1,8 @@
+      <footer class="footer">
+        <ul class="footer-links">
+          {{ with .Site.Params.social }}
+          <li><a href="https://github.com/{{ .github }}">Github</li>
+          <li><a href="https://twitter.com/{{ .twitter }}">Twitter</span></li>
+          {{ end }}
+        </ul>
+      </footer>
